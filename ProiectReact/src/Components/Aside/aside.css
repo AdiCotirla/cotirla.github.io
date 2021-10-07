@@ -1,0 +1,20 @@
+.nav-list
+{
+    margin-top: 15%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.nav-list > a > img
+{
+    width: 4vw;
+    height: 8vh;
+}
+.nav-list > a + a
+{
+    margin-top: 3vh;
+}
+.Contact
+{
+    transform: scaleX(-1);
+}

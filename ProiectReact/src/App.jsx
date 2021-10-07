@@ -1,45 +1,23 @@
-import { useState } from 'react'
-import logo from './logo.svg'
+import React, { Component } from 'react';
 import './App.css'
+import Aside from './Components/Aside/aside';
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
-    </div>
-  )
+class App extends Component {
+  render() {
+    return (
+      <div className="container">
+        <div className="menu-container">
+          <h1>Adrian Cotîrlă</h1>
+          <p>Sportsman/Junior Developer</p>
+          <div className="button-arrow">
+            <a href="./src/Pages/About/about.html"><button>About Me</button></a>
+            <img src="./src/assets/arrow.png" />
+          </div>
+        </div>
+        <Aside></Aside>
+      </div>
+    )
+  }
 }
 
 export default App
