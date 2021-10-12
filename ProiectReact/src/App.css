@@ -7,59 +7,5 @@
 html{
   width: 100%;
   height: 100%;
-  background-image: url(./assets/ac.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  font-family: 'Port Lligat Sans', sans-serif;
   color: white;
-}
-.container
-{
-  position: relative;
-  width: 100%;
-  height: 100vh;
-}
-.menu-container
-{
-  position: absolute;
-  top: 25%;
-  left: 10%;
-}
-.menu-container > h1
-{
-  font-size: 6vw;
-}
-.menu-container > p
-{
-  font-size: 2vw;
-}
-.button-arrow
-{
-  margin-top: 0.5%;
-  display: flex;
-  flex-direction: row;
-}
-.button-arrow > img
-{
-  width: 3%;
-  height: 3%;
-  margin-top: 1.2%;
-  margin-left: -10px;
-}
-.button-arrow > a > button
-{
-  cursor: pointer;
-  width: 6vw;
-  height: 6vh;
-  background-color: red;
-  border: none;
-  border-radius: 5px;
-  font-size: 1vw;
-  font-weight:500;
-}
-.button-arrow > a > button:hover
-{
-  transition: 1s;
-  box-shadow: inset 8rem 0 0 0 #2943b9 ;
 }

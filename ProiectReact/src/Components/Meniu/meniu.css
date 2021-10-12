@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {width: 100%;}
+body {width: 100%; }
+.container-meniu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.meniu-stanga,
+.meniu-dreapta
+{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.meniu-stanga > ul
+{
+    list-style: none;
+    display: flex;
+}
+.meniu-stanga > ul > li > a
+{
+    position: relative;
+    color: black;
+    letter-spacing: 0.2em;
+    font-size: 13px;
+    font-size: 1vw;
+    padding: 7.5px 15px;
+    text-decoration: none;
+}
+
+.meniu-stanga > ul > li > a::after,
+.meniu-dreapta> ul > li > a::after
+{
+   content: '';
+   position: absolute;
+   background-color: black;
+   height: 3px;
+   width: 0;
+   left: 0;
+   bottom: 0;
+   transition: 0.5s;
+}
+.meniu-stanga > ul > li > a:hover::after,
+.meniu-dreapta > ul > li > a:hover::after
+{
+    width: 100%;
+}
+
+.meniu-dreapta > ul
+{
+    list-style: none;
+    display: flex;
+}
+.meniu-dreapta > ul > li > a
+{
+    position: relative;
+    color: black;
+    letter-spacing: 0.2em;
+    font-size: 13px;
+    font-size: 1vw;
+    padding: 7.5px 15px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.logo > a 
+{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
