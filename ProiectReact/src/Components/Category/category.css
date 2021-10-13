@@ -1,0 +1,73 @@
+.category-container
+{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.smaller-container
+{
+    display: flex;
+    flex-direction: row;
+}
+.title
+{
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 13px;
+    font-size: 3vw;
+    margin-bottom: 5%;
+    font-weight: lighter;
+}
+.bape
+{
+    background-image: url('https://blvcks.com/wp-content/uploads/2017/05/18789799_697688350415682_1020120318_o.png');
+}
+.off
+{
+    background-image: url('https://images.lvrcdn.com/Big74I/3KW/020_a4741068-69eb-4da6-ae92-bf00382285c3.JPG');
+}
+.supreme
+{
+    background-image: url('https://uproxx.com/wp-content/uploads/2018/06/ju6vftbpu50.jpg');
+}
+.bape, .off, .supreme
+{
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left:60px;
+    opacity: 1;
+    transition: 1s;
+}
+
+.bape > div > h1,
+.off > div > h1,
+.supreme > div > h1
+{
+    background-color: rgba(255, 255, 255, 0.562);
+    color: black;
+    font-style: italic;
+    font-weight: 500;
+   
+}
+
+.bape:hover,
+.off:hover,
+.supreme:hover
+{
+    transform: scale(1.04);
+    filter: brightness(85%);
+}
