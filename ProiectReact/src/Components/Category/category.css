@@ -30,32 +30,36 @@
 }
 .off
 {
-    background-image: url('https://images.lvrcdn.com/Big74I/3KW/020_a4741068-69eb-4da6-ae92-bf00382285c3.JPG');
+    background-image: url('https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2020-12-18_17.34.01_720x.png?v=1608305691');
 }
 .supreme
 {
-    background-image: url('https://uproxx.com/wp-content/uploads/2018/06/ju6vftbpu50.jpg');
+    background-image: url('https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2021-04-01_22.10.08_720x.png?v=1617304289');
 }
-.bape, .off, .supreme
+.angels
+{
+    background-image: url('https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2020-12-18_16.58.05_540x.png?v=1608304294');
+}
+.bape, .off, .supreme, .angels
 {
     width: 400px;
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-decoration: none;
-    margin-left:60px;
     opacity: 1;
     transition: 1s;
 }
 
 .bape > div > h1,
 .off > div > h1,
-.supreme > div > h1
+.supreme > div > h1,
+.angels > div >h1
 {
     background-color: rgba(255, 255, 255, 0.562);
     color: black;
@@ -66,8 +70,9 @@
 
 .bape:hover,
 .off:hover,
-.supreme:hover
+.supreme:hover,
+.angels:hover
 {
-    transform: scale(1.04);
+    transform: scale(1.2);
     filter: brightness(85%);
 }

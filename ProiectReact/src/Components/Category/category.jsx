@@ -2,11 +2,7 @@ import React, { Component } from "react";
 import './category.css'
 import { Categories } from "./CategoryData";
 class Category extends Component {
-    console() {
-        console.log(Categories)
-    }
-
-    render() {
+    render(){
         return (
             <div className="category-container">
                 <h1 className="title">SEARCH BY CATEGORY</h1>
