@@ -12,6 +12,8 @@
     color: white;
     font-size: 0.8vw;
     font-weight: bold;
+    cursor:grab;
+    transition: 1s;
 }
 .info > span
 {
