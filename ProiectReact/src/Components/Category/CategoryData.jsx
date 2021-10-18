@@ -1,9 +1,9 @@
 export const Categories =[
     {
-        nume : "BAPE",
-        image: 'https://blvcks.com/wp-content/uploads/2017/05/18789799_697688350415682_1020120318_o.png',
-        clasa : "bape",
-        pozitie: "#bape"
+    nume: "SUPREME",
+    image: 'https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2021-04-01_22.10.08_720x.png?v=1617304289',
+    clasa : "supreme",
+    pozitie: "supreme.html"
     },
     {
         nume: "OFF-WHITE",
@@ -11,14 +11,14 @@ export const Categories =[
         clasa : "off",
         pozitie: "#offwhite"
     },
-    {
-        nume: "SUPREME",
-        image: 'https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2021-04-01_22.10.08_720x.png?v=1617304289',
-        clasa : "supreme",
-        pozitie: "#supreme"
-    },
-    {
-        nume : 'PALM-ANGELS',
+        {
+            nume : "BAPE",
+            image: 'https://blvcks.com/wp-content/uploads/2017/05/18789799_697688350415682_1020120318_o.png',
+            clasa : "bape",
+            pozitie: "#bape"
+        },
+        {
+            nume : 'PALM-ANGELS',
         image: 'https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2020-12-18_16.58.05_540x.png?v=1608304294',
         clasa: 'angels',
         pozitie: '#angels'

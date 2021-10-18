@@ -7,8 +7,8 @@ class Meniu extends Component {
             <div className="container-meniu">
                 <div className="meniu-stanga">
                     <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">SUPREME</a></li>
+                        <li><a href="../../../../index.html">HOME</a></li>
+                        <li> <a href="./src/Pages/Supreme/supreme.html">SUPREME</a></li>
                         <li><a href="#">OFF-WHITE</a></li>
                     </ul>
                 </div>

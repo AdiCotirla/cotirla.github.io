@@ -14,7 +14,7 @@ class Footer extends Component
                 <div className="footer-title">
                     <h1>FIRE-STOCK <br/> LIVE 2021</h1>
                 </div>
-                <div className="info">
+                <div className="info-footer">
                     <p>RETUR GRATUIT</p>
                     <p>VERIFICARE COLET</p>
                     <p>PLATA LA LIVRARE</p>

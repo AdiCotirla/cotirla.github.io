@@ -16,17 +16,24 @@
 }
 .title
 {
+    /* background-image: url('https://ak.picdn.net/shutterstock/videos/1023859405/thumb/1.jpg?ip=x480'); */
+    /* border-top: 30px solid black;
+    border-bottom: 30px solid black; */
     background-color: black;
-    color: white;
+    background-position: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    color: black;
     width: 100%;
     font-size: 13px;
     font-size: 3vw;
     margin-bottom: 5%;
     font-weight: lighter;
+    font-family: 'Playfair Display', serif;
 }
 .bape
 {
-    background-image: url('https://blvcks.com/wp-content/uploads/2017/05/18789799_697688350415682_1020120318_o.png');
+    background-image: url('https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2_540x.png?v=1614337579');
 }
 .off
 {
@@ -34,7 +41,7 @@
 }
 .supreme
 {
-    background-image: url('https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2021-04-01_22.10.08_720x.png?v=1617304289');
+    background-image: url('https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2bd9aa23_540x.jpg?v=1608246990');
 }
 .angels
 {

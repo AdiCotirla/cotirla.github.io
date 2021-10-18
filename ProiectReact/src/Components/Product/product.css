@@ -1,0 +1,26 @@
+.product-list
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.produse
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 20vw;
+    height: 35vh;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.5vw;
+}
+.produse > img
+{
+    object-fit: contain;
+    width: 80%;
+    height: 80%;
+}
