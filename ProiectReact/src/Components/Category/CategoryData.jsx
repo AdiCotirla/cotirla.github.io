@@ -3,7 +3,7 @@ export const Categories =[
     nume: "SUPREME",
     image: 'https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2021-04-01_22.10.08_720x.png?v=1617304289',
     clasa : "supreme",
-    pozitie: "supreme.html"
+    pozitie: "../../src/Pages/Supreme/supreme.html"
     },
     {
         nume: "OFF-WHITE",
