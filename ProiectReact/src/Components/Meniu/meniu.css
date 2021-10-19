@@ -16,14 +16,13 @@ body {width: 100%; }
     align-items: center;
     justify-content: space-evenly;
 }
-.meniu-stanga,
-.meniu-dreapta
+.meniu-stanga > ul,
+.meniu-dreapta > ul
 {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
 }
 .meniu-stanga > ul
 {

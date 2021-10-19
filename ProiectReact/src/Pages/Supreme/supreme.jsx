@@ -3,17 +3,17 @@ import ReactDOM from 'react-dom';
 import Product from "../../Components/Product/product";
 import { supremeData } from "../../Components/Product/supremeData";
 import Meniu from "../../Components/Meniu/meniu";
-import "./supreme.css"
 import Footer from "../../Components/Footer/footer";
 import Informatii from "../../Components/Informatii/info";
-
+import "./supreme.css"
+import '../Styles/global.css'
 
 class Supreme extends Component
 {
     render(){
         return(
             <div>
-            <Product produse = {supremeData}/>
+            <Product myObj={supremeData}/>
             </div>
         )
     }

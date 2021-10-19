@@ -1,0 +1,26 @@
+.numar
+{
+    margin-top: 2%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.title
+{
+    margin: 2% 0 2% 0;
+    color: black;
+    text-align: center;
+    text-transform:uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size: 2vw;
+}
+.title::after
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-bottom: 1px solid black;
+}

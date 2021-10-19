@@ -9,7 +9,7 @@ class Meniu extends Component {
                     <ul>
                         <li><a href="../../../../index.html">HOME</a></li>
                         <li> <a href="/src/Pages/Supreme/supreme.html">SUPREME</a></li>
-                        <li><a href="#">OFF-WHITE</a></li>
+                        <li><a href="/src/Pages/OffWhite/offwhite.html">OFF-WHITE</a></li>
                     </ul>
                 </div>
                 <div className="logo">
