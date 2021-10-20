@@ -17,7 +17,7 @@ class Meniu extends Component {
                 </div>
                 <div className="meniu-dreapta">
                     <ul>
-                    <li><a href="#">BAPE</a></li>
+                    <li><a href="/src/Pages/Bape/bape.html">BAPE</a></li>
                     <li><a href="#">BRANDS</a></li>
                     <li><a href="#">CONTACT US</a></li></ul>
                 </div>

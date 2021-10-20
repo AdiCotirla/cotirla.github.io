@@ -5,7 +5,6 @@ import Footer from '../../Components/Footer/footer';
 import Informatii from '../../Components/Informatii/info';
 import Meniu from '../../Components/Meniu/meniu';
 import { offwhiteData } from './offwhiteData';
-import "./offwhite.css"
 import '../Styles/global.css'
 
 

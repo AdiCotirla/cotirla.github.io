@@ -16,9 +16,6 @@
 }
 .title
 {
-    /* background-image: url('https://ak.picdn.net/shutterstock/videos/1023859405/thumb/1.jpg?ip=x480'); */
-    /* border-top: 30px solid black;
-    border-bottom: 30px solid black; */
     background-color: black;
     background-position: center;
     -webkit-text-stroke-width: 1px;
@@ -33,7 +30,7 @@
 }
 .bape
 {
-    background-image: url('https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2_540x.png?v=1614337579');
+    background-image: url('https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2020-12-18_16.18.22_540x.png?v=1608301369');
 }
 .off
 {
@@ -63,10 +60,7 @@
     transition: 1s;
 }
 
-.bape > div > h1,
-.off > div > h1,
-.supreme > div > h1,
-.angels > div >h1
+.h1-category
 {
     background-color: rgba(255, 255, 255, 0.562);
     color: black;

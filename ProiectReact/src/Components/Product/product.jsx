@@ -5,7 +5,6 @@ class Product extends Component {
     {
         super(props)
         this.Lista = [...this.props.myObj]
-        console.log(this.Lista)
     }
     render() 
     {
