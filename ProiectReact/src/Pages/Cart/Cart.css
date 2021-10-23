@@ -1,11 +1,11 @@
-.product-list
+.cart-items
 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.produse
+.cart-item
 {
     display: flex;
     justify-content: center;
@@ -13,29 +13,22 @@
     text-align: center;
     flex-direction: column;
     width: 20vw;
-    height: 40vh;
+    height: 35vh;
     cursor: pointer;
     font-family: 'Playfair Display', serif;
     font-size: 0.5vw;
     margin-top: 30px;
-    border-radius: 5px;
-    border: 0.5px solid rgba(66, 66, 66, 0.226);
-    margin-left: 30px;
-    padding: 20px;
 }
-.produse > img
+.cart-item > img
 {
     object-fit: contain;
     width: 80%;
     height: 80%;
 }
-.button-product
+.cart-title
 {
-    background-color: coral;
-    border: none;
-    width: 100px;
-    height: 20%;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
 }

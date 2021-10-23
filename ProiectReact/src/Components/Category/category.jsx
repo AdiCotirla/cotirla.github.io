@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import './category.css'
-import { Categories } from "./CategoryData";
-class Category extends Component {
-    render(){
+function Category(props) {
+  
+    const Categories = [...props.category]
+
         return (
             <div className="category-container">
                 <h1 className="title">SEARCH BY BRANDS</h1>
@@ -10,8 +11,9 @@ class Category extends Component {
                 {Categories.map((category) => {
                     return (
                         <a href={category.pozitie} className={category.clasa}>
-                            <div>
+                            <div className="category-info">
                                 <h1 className="h1-category">{category.nume}</h1>
+                                <img className="category-image"src={category.image}/>
                             </div>
                         </a>
                     )
@@ -19,6 +21,6 @@ class Category extends Component {
             </div>
         )
     }
-}
+
 
 export default Category

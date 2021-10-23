@@ -1,21 +1,17 @@
-import React, { Component } from "react";
+import React, { Component, useState} from "react";
 import "./product.css"
-class Product extends Component {
-    constructor(props)
-    {
-        super(props)
-        this.Lista = [...this.props.myObj]
-    }
-    render() 
-    {
+function Product (props) {
+        
+        const Lista = [...props.myObj]
         return (
             <div className="product-list">
-                            {this.Lista.map((produse)=>{
+                            {Lista.map((produse)=>{
                                 return(
-                                    <div className="produse">
+                                    <div className="produse" key={produse.id}>
                                     <img src={produse.image} />
                                     <h1>{produse.name}</h1>
                                     <h2>{produse.price}</h2>
+                                    <button className="button-product">ADD TO CART</button>
                                     </div>              
                                 )
 
@@ -24,7 +20,6 @@ class Product extends Component {
             </div>
         )
     }
-}
 
 
 export default Product

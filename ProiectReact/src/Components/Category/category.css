@@ -13,6 +13,7 @@
 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .title
 {
@@ -28,22 +29,7 @@
     font-weight: lighter;
     font-family: 'Playfair Display', serif;
 }
-.bape
-{
-    background-image: url('https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2020-12-18_16.18.22_540x.png?v=1608301369');
-}
-.off
-{
-    background-image: url('https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2020-12-18_17.34.01_720x.png?v=1608305691');
-}
-.supreme
-{
-    background-image: url('https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2bd9aa23_540x.jpg?v=1608246990');
-}
-.angels
-{
-    background-image: url('https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2020-12-18_16.58.05_540x.png?v=1608304294');
-}
+
 .bape, .off, .supreme, .angels
 {
     width: 400px;
@@ -59,14 +45,20 @@
     opacity: 1;
     transition: 1s;
 }
-
+.category-info
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
 .h1-category
 {
+    position: absolute;
+    top: 50%;
     background-color: rgba(255, 255, 255, 0.562);
     color: black;
     font-style: italic;
     font-weight: 500;
-   
 }
 
 .bape:hover,
@@ -76,4 +68,10 @@
 {
     transform: scale(1.2);
     filter: brightness(85%);
+}
+.category-image
+{
+    object-fit: contain;
+    width: 80%;
+    height: 80%;
 }

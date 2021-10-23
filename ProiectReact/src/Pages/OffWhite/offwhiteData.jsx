@@ -3,7 +3,8 @@ export const offwhiteData =[
         categorie:"off",
         image:"https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2020-12-18_16.51.43_540x.png?v=1615031018",
         price: "350,00 lei",
-        name:"T-SHIRT OFF-WHITE B WHITE"
+        name:"T-SHIRT OFF-WHITE B WHITE",
+        cart: true
     }, {
         categorie:"off",
         image:"https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2020-12-18_16.52.46_540x.png?v=1608303767",
@@ -13,7 +14,8 @@ export const offwhiteData =[
         categorie:"off",
         image:"https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2020-12-18_17.34.01_720x.png?v=1608305691",
         price: "450,00 lei",
-        name:"HOODIE OFF-WHITE LATER"
+        name:"HOODIE OFF-WHITE LATER",
+        cart: true
     }, {
         categorie:"off",
         image:"https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2021-04-26_21.18.41_540x.png?v=1619461191",

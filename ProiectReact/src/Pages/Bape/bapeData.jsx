@@ -70,7 +70,8 @@ export const bapeData =
         categorie:"bape",
         image:"https://cdn.shopify.com/s/files/1/0520/8974/9672/products/11_fd6b575f-899a-49f2-b353-fb443a65f392_540x.png?v=1619164355",
         name:"T-SHIRT AAPE BL",
-        price:"350,00 lei"
+        price:"350,00 lei",
+        cart: true
     },
     {
         categorie:"bape",
@@ -82,7 +83,8 @@ export const bapeData =
         categorie:"bape",
         image:"https://cdn.shopify.com/s/files/1/0520/8974/9672/products/6._f989ec7e-426d-4899-8082-916f020d58df_540x.jpg?v=1621288526",
         name:"SHORTS BAPE X MCM",
-        price:"400,00 lei"
+        price:"400,00 lei",
+        cart: true
     },
     {
         categorie:"bape",
