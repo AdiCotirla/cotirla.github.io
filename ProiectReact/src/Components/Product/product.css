@@ -31,11 +31,13 @@
 }
 .button-product
 {
-    background-color: coral;
-    border: none;
-    width: 100px;
-    height: 20%;
-    border-radius: 5px;
     cursor: pointer;
+    text-align: center;
     font-family: 'Playfair Display', serif;
+   background-color: black;
+   color: white;
+   border: none;
+   width: 100px;
+   border: 1px solid rgba(66, 66, 66, 0.226);
+   border-radius: 5px;
 }

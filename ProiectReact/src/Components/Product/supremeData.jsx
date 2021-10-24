@@ -14,7 +14,7 @@ export const supremeData =
          image:"https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2020-12-18_16.40.53_540x.png?v=1608302596",
          price: "199,00 lei",
          name: "T-SHIRT SUPREME SC BLACK",
-         cart: true
+         cart: false
      },
     {
         id:"3",

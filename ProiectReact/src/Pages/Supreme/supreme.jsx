@@ -8,6 +8,8 @@ import Informatii from "../../Components/Informatii/info";
 import "./supreme.css"
 import '../Styles/global.css'
 
+
+
 function Supreme(){
 
     return (
