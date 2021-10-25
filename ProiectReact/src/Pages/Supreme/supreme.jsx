@@ -7,11 +7,10 @@ import Footer from "../../Components/Footer/footer";
 import Informatii from "../../Components/Informatii/info";
 import "./supreme.css"
 import '../Styles/global.css'
-
-
+import Cart from "../Cart/Cart"
 
 function Supreme(){
-
+  
     return (
       <div>
         <Meniu />

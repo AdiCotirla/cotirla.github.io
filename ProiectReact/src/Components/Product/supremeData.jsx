@@ -1,4 +1,4 @@
-export const supremeData =
+const supremeData =
 [
     {
         id:"1",
@@ -6,7 +6,7 @@ export const supremeData =
         image:"https://cdn.shopify.com/s/files/1/0520/8974/9672/products/8c7b43fd_540x.jpg?v=1608247050",
         price: "300,00 lei",
         name:"HOODIE SUPREME PINK GOLD",
-        cart: true
+        cart: false
     },
      {
         id:"2",

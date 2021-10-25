@@ -1,12 +1,14 @@
 import React, { Component, useState , useEffect} from "react";
 import "./product.css"
+import { Orders } from "../../Pages/Cart/CartData";
 function Product (props) {
     
-        const [cart , setCart] = useState(true)
-
+        const [cart , setCart] = useState([])
+        let orders = {...Orders}
+        
         const addToCartFunction = (id , produse) => {
-            setCart(produse.cart = true)
-            console.log(produse)
+            orders = [...cart]
+            setCart(orders)
         }
         const Lista = [...props.myObj]
         return (

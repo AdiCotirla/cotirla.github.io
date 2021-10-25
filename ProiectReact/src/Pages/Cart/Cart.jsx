@@ -10,7 +10,7 @@ import "./Cart.css"
 
 
 function Cart(props) {
-    const data = [...props.supremeData, ...props.offwhiteData, ...props.bapeData]
+    const data = [...props.supremeData]
 
     return (
         <div>
@@ -41,3 +41,5 @@ ReactDOM.render(
     </React.StrictMode>,
     document.getElementById('root')
 )
+
+export default Cart

@@ -1,5 +1,6 @@
 export const offwhiteData =[
     {
+        id:"1",
         categorie:"off",
         image:"https://cdn.shopify.com/s/files/1/0520/8974/9672/products/2020-12-18_16.51.43_540x.png?v=1615031018",
         price: "350,00 lei",
